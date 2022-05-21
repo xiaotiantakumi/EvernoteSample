@@ -1,0 +1,16 @@
+PODS:
+  - EvernoteSDK (3.0.0)
+
+DEPENDENCIES:
+  - EvernoteSDK (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - EvernoteSDK
+
+SPEC CHECKSUMS:
+  EvernoteSDK: 7e9de762a9c281e714f3e6d0ae10657db3046792
+
+PODFILE CHECKSUM: 2c80bbc1253ec798898ff98cc3b133f12d684b21
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFCC979D66D3DCCD72E0EBA /* Pods_EvernoteSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5855A499078217697317215 /* Pods_EvernoteSample.framework */; };
+		CB7B733714C647D09C54C705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7B77652A95E44E3F931A3D /* Assets.xcassets */; };
+		CB7B75B7F3AE4B936BF75529 /* EvernoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7E5BE563EF6ABBEE8CA9 /* EvernoteViewController.swift */; };
+		CB7B76273EEB744C882FE8D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7B70F23395850030A69F43 /* Preview Assets.xcassets */; };
+		CB7B799157D85AE9FE57080A /* AccessTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7AC226C5A1BF70B78A8A /* AccessTokens.swift */; };
+		CB7B7D37E810F20CEE619127 /* EvernoteSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7D6B98CF19CFC3F540D6 /* EvernoteSampleApp.swift */; };
+		CB7B7D6DB15E485B97036040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B725ADFCF74003B1CD6C9 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D4C56052D357A5C66DAA755 /* Pods-EvernoteSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvernoteSample.debug.xcconfig"; path = "Target Support Files/Pods-EvernoteSample/Pods-EvernoteSample.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA7CF46931BEE59E1B67F48 /* Pods-EvernoteSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvernoteSample.release.xcconfig"; path = "Target Support Files/Pods-EvernoteSample/Pods-EvernoteSample.release.xcconfig"; sourceTree = "<group>"; };
+		C5855A499078217697317215 /* Pods_EvernoteSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvernoteSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7B70F23395850030A69F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB7B713537DA559C0EF5850C /* EvernoteSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7B725ADFCF74003B1CD6C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB7B77652A95E44E3F931A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7B7AC226C5A1BF70B78A8A /* AccessTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokens.swift; sourceTree = SOURCE_ROOT; };
+		CB7B7D6B98CF19CFC3F540D6 /* EvernoteSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvernoteSampleApp.swift; sourceTree = "<group>"; };
+		CB7B7E5BE563EF6ABBEE8CA9 /* EvernoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7B7C52646CC861DAA7EBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFCC979D66D3DCCD72E0EBA /* Pods_EvernoteSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C80B50491A05212002EA43B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C56052D357A5C66DAA755 /* Pods-EvernoteSample.debug.xcconfig */,
+				7CA7CF46931BEE59E1B67F48 /* Pods-EvernoteSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB7B759A1B401BBE6F6EE39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B713537DA559C0EF5850C /* EvernoteSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7B7C1C8D44ADD16C681DD8 /* EvernoteSample */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B77652A95E44E3F931A3D /* Assets.xcassets */,
+				CB7B7E4FEFF5ADE53EA5BDA8 /* Preview Content */,
+				CB7B7D6B98CF19CFC3F540D6 /* EvernoteSampleApp.swift */,
+				CB7B725ADFCF74003B1CD6C9 /* ContentView.swift */,
+				CB7B7E5BE563EF6ABBEE8CA9 /* EvernoteViewController.swift */,
+				CB7B7AC226C5A1BF70B78A8A /* AccessTokens.swift */,
+			);
+			path = EvernoteSample;
+			sourceTree = "<group>";
+		};
+		CB7B7DEBF06CC5381F62F7B0 = {
+			isa = PBXGroup;
+			children = (
+				CB7B759A1B401BBE6F6EE39D /* Products */,
+				CB7B7C1C8D44ADD16C681DD8 /* EvernoteSample */,
+				6C80B50491A05212002EA43B /* Pods */,
+				DA757C328BABF3D7B62AD080 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7B7E4FEFF5ADE53EA5BDA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B70F23395850030A69F43 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA757C328BABF3D7B62AD080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5855A499078217697317215 /* Pods_EvernoteSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7B70985EA8662F9550C463 /* EvernoteSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7B7A8AF7ED41BADBD04F59 /* Build configuration list for PBXNativeTarget "EvernoteSample" */;
+			buildPhases = (
+				4F28F7BD42CD2ED5697FE60D /* [CP] Check Pods Manifest.lock */,
+				CB7B7B6F7DF16511C72F5E98 /* Sources */,
+				CB7B7C52646CC861DAA7EBBD /* Frameworks */,
+				CB7B7A2B05DFDAD3C4F3BB5F /* Resources */,
+				57B55448BF2B7DE500D1C076 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteSample;
+			productName = EvernoteSample;
+			productReference = CB7B713537DA559C0EF5850C /* EvernoteSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7B752DBFF9FFCA0C06B5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					CB7B70985EA8662F9550C463 = {
+						DevelopmentTeam = 95FLA3J62X;
+					};
+				};
+			};
+			buildConfigurationList = CB7B7785F2DE307DCFEFFF65 /* Build configuration list for PBXProject "EvernoteSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CB7B7DEBF06CC5381F62F7B0;
+			productRefGroup = CB7B759A1B401BBE6F6EE39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7B70985EA8662F9550C463 /* EvernoteSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7B7A2B05DFDAD3C4F3BB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7B733714C647D09C54C705 /* Assets.xcassets in Resources */,
+				CB7B76273EEB744C882FE8D5 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F28F7BD42CD2ED5697FE60D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvernoteSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B55448BF2B7DE500D1C076 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvernoteSample/Pods-EvernoteSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EvernoteSDK/EvernoteSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EvernoteSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EvernoteSample/Pods-EvernoteSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7B7B6F7DF16511C72F5E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7B7D37E810F20CEE619127 /* EvernoteSampleApp.swift in Sources */,
+				CB7B7D6DB15E485B97036040 /* ContentView.swift in Sources */,
+				CB7B75B7F3AE4B936BF75529 /* EvernoteViewController.swift in Sources */,
+				CB7B799157D85AE9FE57080A /* AccessTokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB7B744AA3076AD2AB8EAD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA7CF46931BEE59E1B67F48 /* Pods-EvernoteSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EvernoteSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 95FLA3J62X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TakumiOda.EvernoteSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB7B76E4FA71A266A9C752E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7B7890F00F040D1F8F4452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4C56052D357A5C66DAA755 /* Pods-EvernoteSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EvernoteSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 95FLA3J62X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TakumiOda.EvernoteSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB7B7ADF3A119EDBE1BBA17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7B7785F2DE307DCFEFFF65 /* Build configuration list for PBXProject "EvernoteSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7B7ADF3A119EDBE1BBA17A /* Debug */,
+				CB7B76E4FA71A266A9C752E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7B7A8AF7ED41BADBD04F59 /* Build configuration list for PBXNativeTarget "EvernoteSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7B7890F00F040D1F8F4452 /* Debug */,
+				CB7B744AA3076AD2AB8EAD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB7B752DBFF9FFCA0C06B5C9 /* Project object */;
+}
